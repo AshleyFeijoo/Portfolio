@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Material Design Bootstrap</title>
+    <title>Jam Finder</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
@@ -88,11 +88,11 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand waves-effect waves-light" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">MDB</a>
+            <a class="navbar-brand waves-effect waves-light" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">JF</a>
 
             <div class="collapse navbar-collapse" id="navbarNav1">
 
-                <ul class="navbar-nav mr-auto">
+                <!-- <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link">Home</a>
                     </li>
@@ -105,7 +105,7 @@
                     <li class="nav-item">
                         <a class="nav-link">Contact</a>
                     </li>
-                </ul>
+                </ul> -->
 
             </div>
 
@@ -120,13 +120,67 @@
         <div class="full-bg-img flex-center">
             <ul>
                 <li>
-                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Material Design for Bootstrap 4</h1></li>
+                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Jam Finder</h1></li>
                 <li>
-                    <p class="wow fadeInDown">The most powerful and free UI KIT for Bootstrap</p>
+                    <p class="wow fadeInDown"> Discover local bands in your price range now!</p>
                 </li>
                 <li>
-                    <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg wow fadeInLeft" data-wow-delay="0.2s">Sign up!</a>
-                    <a target="_blank" href="https://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default btn-lg wow fadeInRight" data-wow-delay="0.2s">Learn more</a>
+                    <form class="md-form">
+                                <div class="col m4">
+                                    <a class="dropdown-trigger btn dropdownItem" href="#" data-target="dropdown1">
+                                        <p>Dates</p>
+                                    </a>
+                                    <ul id='dropdown1' class='dropdown-content'>
+                                            <li><a href="#!">All Dates</a></li>
+                                            <li class="divider" tabindex="-1"></li>
+                                            <li><a href="#!">Today</a></li>
+                                            <li><a href="#!">Tomorrow</a></li>
+                                            <li><a href="#!">This Weekend</a></li>
+                                            <li><a href="#!">Next Week</a></li>
+                                            <li><a href="#!">Next Month</a></li>
+                                        </ul>
+                                    <!-- Dropdown Structure -->
+                                </div>
+                                <div class="col m4">
+                                    <a class=" dropdown-trigger btn dropdownItem" href="#" data-target="dropdown2">
+                                        <p>Genres</p>
+                                    </a>
+                                    <ul id='dropdown2' class='dropdown-content'>
+                                            <li><a href="#!">All Genres</a></li>
+                                            <li class="divider" tabindex="-1"></li>
+                                            <li><a href="#!">Alternative</a></li>
+                                            <li><a href="#!">Blues</a></li>
+                                            <li><a href="#!">Christian/Gospel</a></li>
+                                            <li><a href="#!">Classical</a></li>
+                                            <li><a href="#!">Country</a></li>
+                                            <li><a href="#!">Electronic</a></li>
+                                            <li><a href="#!">Folk</a></li>
+                                            <li><a href="#!">Hip Hop</a></li>
+                                            <li><a href="#!">Jazz</a></li>
+                                            <li><a href="#!">Latin</a></li>
+                                            <li><a href="#!">Metal</a></li>
+                                            <li><a href="#!">Pop</a></li>
+                                            <li><a href="#!">Punk</a></li>
+                                            <li><a href="#!">R&B/Soul</a></li>
+                                            <li><a href="#!">Reggae</a></li>
+                                            <li><a href="#!">Rock</a></li>
+                                        </ul>
+                                    <!-- Dropdown Structure -->
+                                </div>
+                                <div class="col m4">
+                                    <a class="dropdown-trigger btn dropdownItem" href="#" data-target="dropdown3"><p>Drop</p></a>
+                                    <ul id="dropdown3" class="dropdown-content" tabindex="0">
+                                        <li tabindex="0"><a href="#!">one</a></li>
+                                        <li tabindex="0"><a href="#!">two</a></li>
+                                        <li class="divider" tabindex="-1"></li>
+                                        <li tabindex="0"><a href="#!">three</a></li>
+                                        <li tabindex="0"><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                                        <li tabindex="0"><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                                    </ul>
+                                    <!-- Dropdown Structure -->
+            
+                                </div>
+                            </form>
                 </li>
             </ul>
         </div>

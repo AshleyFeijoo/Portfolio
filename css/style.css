@@ -1,1 +1,8 @@
 /* YOUR CUSTOM STYLES */
+
+.me {
+    -webkit-filter: grayscale(1)!important;
+    filter: grayscale(1);
+    border-radius:50%;
+
+  }
