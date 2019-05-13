@@ -85,16 +85,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav1">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link">Home</a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-auto nav-flex-icons">
@@ -309,19 +309,46 @@
 
         <!--Section: Contact-->
         <section id="contact">
-            <div class="row">
+           
                 <!--First column-->
-                <div class="col-md-8">
-                    <div id="map-container" class="z-depth-1 wow fadeInUp" style="height: 300px"></div>
-                </div>
+                <div class="container">
+                        <div class="row mx-auto">
+                          <form class="col-lg-8 pr-5 pb-5">
+                            <div class="form-group">
+                              <label for="exampleInputName">Name</label>
+                              <input type="name" class="form-control" id="exampleInputName" />
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail">Email address</label>
+                              <input
+                                type="email"
+                                class="form-control"
+                                id="exampleInputEmail"
+                                aria-describedby="emailHelp"/>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Message</label>
+                              <textarea
+                                class="form-control"
+                                id="exampleFormControlTextarea1"
+                                rows="10"
+                              ></textarea>
+                            </div>
+                            <button
+                              type="submit"
+                              class=" pulsate-fwd animation btn btn-primary"
+                            >
+                              Submit
+                            </button>
+                          </form>
+                        </div>
+                      </div>
                 <!--/First column-->
-            </div>
         </section>
         <!--Section: Contact-->
 
     </div>
     <!--/ Main container-->
-
 
 
     <!--Footer-->
@@ -359,6 +386,8 @@
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="./js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="./js/app.js"></script>
 
 
 
