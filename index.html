@@ -7,6 +7,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Ash Feijoo Portfolio</title>
     <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+
+
+
     <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +23,12 @@
 <!-- Template styles -->
 <style>
     /* TEMPLATE STYLES */
+body{
+    font-family: 'Oswald', sans-serif;
 
+
+
+}
     html,
     body,
     .view {
@@ -59,7 +69,7 @@
     }
 
     .view {
-        background: url("https://mdbootstrap.com/images/regular/city/img%20(17).jpg")no-repeat center center fixed;
+        background: url("./img/0qkaVYr.jpg")no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -75,17 +85,22 @@
     }
 </style>
 
-<body class="deep-purple-skin ">
+<body class="cyan-skin ">
      <!--Navbar-->
-     <nav class="navbar navbar-toggleable-md fixed-top navbar-dark bg-faded scrolling-navbar smooth-scroll list-unstyled">
+     <nav class="navbar navbar-toggleable-md fixed-top navbar-dark bg-faded scrolling-navbar">
+
             <div class="container">
+    
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <a class="navbar-brand waves-effect waves-light" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">Ash</a>
+    
                 <div class="collapse navbar-collapse" id="navbarNav1">
-                    <ul class="navbar-nav">
+    
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
@@ -94,42 +109,31 @@
                             <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="">Contact</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav ml-auto nav-flex-icons">
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="https://github.com/AshleyFeijoo" target="_blank">
-                            <i class="fab fa-lg fa-github"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="https://www.linkedin.com/in/ashley-feijoo-99b225113/" target="_blank">
-                            <i class="fab fa-lg fa-linkedin"></i>
-                            </a>
-                        </li>
-                    </ul>
+    
                 </div>
     
             </div>
     
-    </nav>
+        </nav>
         <!--/.Navbar-->
 
 
     <!--Mask-->
-    <div class="view hm-black-strong">
+    <div class="view hm-black-light">
         <div class="full-bg-img flex-center">
             <ul>
                 <li>
-                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Ashley Feijoo</h1>
+                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Ash Feijoo</h1>
                 </li>
                 <li>
                     <p class="wow fadeInDown">Full Stack Web Developer</p>
                 </li>
                 <li>
                         <img
-                        class="me rounded-circle animation img-fluid mx-auto wow fadeIn" data-wow-delay="0.2s"
+                        class="me z-depth-5 rounded-circle animation img-fluid mx-auto wow fadeIn" data-wow-delay="0.2s"
                         id="sticker"
                         src="https://i.imgur.com/odCtb3bb.jpg?"
                         alt="picture of Ash Feijoo"/>
@@ -142,8 +146,6 @@
 
     <!-- Main container-->
     <div class="container">
-        <br>
-        <br>
         <br>
         <br>
         <hr>
@@ -170,9 +172,7 @@
         <!--Section: Best features-->
 
         <br>
-        <br>
-        <br>
-        <br>
+     
  
         <section id="portfolio">
 
@@ -313,7 +313,7 @@
                 <!--First column-->
                 <div class="container">
                         <div class="row mx-auto">
-                          <form class="col-lg-8 pr-5 pb-5">
+                          <form class="col-lg-8 mx-auto">
                             <div class="form-group">
                               <label for="exampleInputName">Name</label>
                               <input type="name" class="form-control" id="exampleInputName" />
@@ -321,7 +321,7 @@
                             <div class="form-group">
                               <label for="exampleInputEmail">Email address</label>
                               <input
-                                type="email"
+                                type="name"
                                 class="form-control"
                                 id="exampleInputEmail"
                                 aria-describedby="emailHelp"/>
@@ -334,12 +334,13 @@
                                 rows="10"
                               ></textarea>
                             </div>
+                            <div class="col-lg-4 col-sm-12 text-center mx-auto">
                             <button
                               type="submit"
-                              class=" pulsate-fwd animation btn btn-primary"
-                            >
+                              class="pulse animated infinite btn btn-primary">
                               Submit
                             </button>
+                        </div>
                           </form>
                         </div>
                       </div>
@@ -354,19 +355,13 @@
     <!--Footer-->
     <footer class="page-footer center-on-small-only">
 
-        <!--Footer Links-->
-        <div class="container-fluid">
-            <div class="row">
-
-        <!--/.Footer Links-->
-
 
         <!--Copyright-->
-        <div class="footer-copyright">
-            <div class="container-fluid center-align">
-                © 2019
+        <div class="footer-copyright text-muted small">
+            <!-- <div class="container-fluid center-align"> -->
+                ©2019
             </div>
-        </div>
+        <!-- </div> -->
         <!--/.Copyright-->
 
     </footer>
@@ -386,8 +381,6 @@
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="./js/mdb.min.js"></script>
-
-    <script type="text/javascript" src="./js/app.js"></script>
 
 
 
