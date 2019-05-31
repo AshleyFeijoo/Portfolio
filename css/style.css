@@ -6,3 +6,8 @@
     border-radius:50%;
 
   }
+
+  section.text-center.wow.bounceIn {
+    max-width: 80%;
+    margin: 0 auto;
+}
