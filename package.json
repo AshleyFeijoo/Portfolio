@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/AshleyFeijoo/Portfolio/issues"
   },
-  "homepage": "https://github.com/AshleyFeijoo/Portfolio#readme"
+  "homepage": "https://github.com/AshleyFeijoo/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.7"
+  }
 }
