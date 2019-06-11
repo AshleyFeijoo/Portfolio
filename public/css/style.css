@@ -1,5 +1,7 @@
 /* YOUR CUSTOM STYLES */
-
+body{
+  line-height: 1.2;
+}
 .me {
     -webkit-filter: grayscale(1)!important;
     filter: grayscale(1);
@@ -10,4 +12,7 @@
   section.text-center.wow.bounceIn {
     max-width: 80%;
     margin: 0 auto;
+}
+a.btn-floating.white-text.text-center.btn-blue-grey.grey-gradient.waves-effect.waves-light {
+  background-color: black!important;
 }
