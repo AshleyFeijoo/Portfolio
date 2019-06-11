@@ -1,6 +1,8 @@
 
   $(document).ready(function () {
-
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+      })
       $("#modalBtn").click(function (e) { 
         e.preventDefault();
         $('#centralModalSuccess').modal();
